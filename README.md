@@ -8,7 +8,7 @@
 ### [프로젝트1. DailyRecorder](https://play.google.com/store/apps/details?id=kr.co.yapp.campusrecorder&hl=ko)
 
 ### 개요
-- 달력 날짜별로 녹음파일 확인이 가능하고, 카테고리 설정을 지원해주는 안드로이드 어플리케이션입니다.
+- 달력 날짜별로 녹음파일 확인이 가능하고, 카테고리 설정을 지원해주는 안드로이드 어플리케이션
 
 
 ### 프로젝트 명세
@@ -31,7 +31,7 @@
  3. 예비 사용유저가 아닌 기능성에 초점을 맞춰 재기획
  
 ### 산출물
-- [Client Source Code - **Android**](https://github.com/ridickle7/CampusRecorder) <br>
+- [Client Source Code - **Android**](https://github.com/ridickle7/CampusRecorder)
 
 ![Image](https://github.com/ridickle7/LeeSangWoo_Portfolio/blob/master/1.%20ImageRef/2.%20BUU/githubHeadPage.png)<br>
 ### 프로젝트2. BUU
@@ -135,17 +135,14 @@
    2. javascript 기초 개념 (hoisting / callback chain / 함수형 프로그래밍)
    3. Express Framework를 활용한 기초 서버 작성 (URL 프로토콜 추가 실습)
  - 3주차 (2017.08.09(수))<br>
-   1. 로또 프로그램 만들기 / Express를 활용한 심화 페이지 과제 발표
-   2. Express Framework 의 특징 (Middleware / Routing)
+   1. Express Framework 의 특징 (Middleware / Routing)
  - 4주차 (2017.08.16(수))<br>
-   1. 과제 발표 (회문)
-   2. DB에 대한 기초 개념 (DB 전공 지식 / DB의 종류)
-   3. workBench로 CRUD 실습
-   4. Node.js에 MYSQL 연동 ( + DBPool 활용)
+   1. DB에 대한 기초 개념 (DB 전공 지식 / 종류)
+   2. workBench로 CRUD 실습
+   3. Node.js에 MYSQL 연동 ( + DBPool 활용)
  - 5주차 (2017.08.30(수))<br>
-   1. 앞으로 나아갈 방향 논의
-   2. REST API
-   3. javascript ES6
+   1. REST API
+   2. javascript ES6
  - 6주차 (2017.09.06(수))<br>
    1. javascript 개인 발표 (1/3)<br>(변수(var) 및 함수(function) / closure)
  - 7주차 (2017.09.13(수))<br>
@@ -159,17 +156,9 @@
 - [Study GitHub Reference (**Node.js**)](https://github.com/ridickle7/yapp_11th_node.js_study)
 
 
-### 스터디2. 기타
-
-### 소개
- - 위에서 이야기한 Node.js 이외에도 다양한 스터디를 운영 및 참여하며
-   1. 개발 언어를 다양화함 <br>(Android, Java, Python, Linux 등)
-   2. 타 직군을 이해하려함 <br>(기획 기초, UX 등)
-   
 ### 기타활동
- - 대학생 연합 기업형 IT 동아리 YAPP
+ - 대학생 연합 기업형 IT 동아리 YAPP<br>
    운영진 및 회장으로 활동
    
- - 대학생 연합 기업형 IT 동아리 YAPP
-   운영진 및 회장으로 활동
-   2. 타 직군을 이해하려함 <br>(기획 기초, UX 등)
+ - 대학생 연합 해커톤 UNITHON<br>
+   2~5 회 운영진 및 4회 총괄로 활동
