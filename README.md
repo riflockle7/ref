@@ -8,6 +8,10 @@
 2. 리눅스 log파일 삭제방법 : http://www.technet.co.kr/bbs/board.php?bo_table=tip&wr_id=268&page=3
 
 Android
+- 디자인패턴 (JAVA)
+1. MVP 패턴 : http://thdev.tech/androiddev/2016/11/30/Android-MVP-Two.html
+2. Singleton 패턴 : http://asfirstalways.tistory.com/335
+
 - 네비게이션 뷰 
 1. 기본적인 사용법 : 
 2. 네비게이션 drawer내 위젯 접근 : http://braintoast.tistory.com/12
