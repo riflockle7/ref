@@ -15,6 +15,9 @@ Android
 - Android View
 1. 네비게이션 drawer내 위젯 접근 : http://braintoast.tistory.com/12
 2. ConstrainLayout & BottomSheet : http://www.kmshack.kr/tag/bottomsheetbehavior/
+3. Default View : android.R.layout.simple
+4. CoordinatorLayout 활용 : http://www.kmshack.kr/tag/coordinatorlayout/
+5. bottomSheet 응용 : https://www.androidauthority.com/bottom-sheets-707252/
 
 - 인텐트
 1. 카메라 갤러리에서 이미지 가져오기 : http://craftwizard.tistory.com/entry/%EC%82%AC%EC%A7%84-%EA%B0%A4%EB%9F%AC%EB%A6%AC%EC%97%90%EC%84%9C-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EA%B0%80%EC%A0%B8%EC%98%A4%EA%B8%B0
