@@ -56,6 +56,18 @@ Controller : 입력을 받아 무엇을 할지 설정
 3. Activity / Fragment를 컨트롤러로 잡고, XML로 생성된 뷰 객체들이 제한적인 View로 가정하고 Controller가 다 챙겨주는 형태가 일반적
 
 #### MVP
+1. IBM에 나옴 (Form & Controls와 MVC를 합치려고 함)  
+- Form & Controls 수준의 Control 수준 + View과 Controller 구분을 제거
+- 실제 상호 작용은 분리된 Presenter 객체에 넘김
 
+2. View과 Model을 다루는 방식에 따라
+- Supervising Controller - 뷰가 갱View가 Model에서 옵저버 패턴을 통해 가져감
+- Passive View - Presenter가 View 갱신 책임
 
+3. Android
+- Activity와 그 부속 View 객체 = MVP의 View  
+- 이벤트 등을 등록된 Presenter에 보냄
+
+#### FLUX
+나중에 시간 된다면 이거에 대해서도 검색해보자!
 
