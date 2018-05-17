@@ -128,7 +128,7 @@ N-hot vector을 통해 조사가 특히 발전되어있는 한국에 맞추어 �
 serverless에 대한 정의를 귀에 잘 박히게 설명해주었다. 위의 정의 한 마디로 이 세션에서 얻을 최소 이득은 다 얻었다.  
 그리고 함수를 호출할때마다 돈을 과금하는 형태이기 때문에, 사용하지 않을때도 돈을 지불하는 기존 이벤트 대기방식에 비해 효율적이라는 설명을 들었다.  
 하긴.. 함수를 사용할 시에만 지불하는 프로세스이니 소비적 측면에서도 큰 이득이다. 더불어 실제 node.js의 express 구축이나 라우팅 처리도 필요가 없을 것이고, 스프링에서 극혐인 초기 설정... (지금은 springboot라는 사기캐릭이 있다고 하지만) 을 생각해보면, 서버를 모르는 사람들도 쉽게 접할 수 있을 것이라 생각한다. 
-![image](https://github.com/ridickle7/LeeSangWoo_Reference/blob/master/2018/0516_clovaTechSubmit/0.imageRef/image3_3.jpeg?raw=true)
+![image](https://github.com/ridickle7/LeeSangWoo_Reference/blob/master/2018/0516_clovaTechSubmit/0.imageRef/image3_2.jpeg?raw=true)
 
 사실 이 세션에서 물어보고 싶은 게 좀 있었다. 
 > 구글 클라우드 서비스와 같이 로컬로 받아와 디버깅을 할 수 있느냐
