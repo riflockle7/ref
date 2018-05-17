@@ -15,8 +15,7 @@
 
 ## 세션1: Clova extension에서 Interaction Model 설계 및 제작 노하우 
 
-사실 딥러닝에 대해 겉햝기로 공부하고 봉인한 사례가 있어 다시 복습한다고 생각하고 이 세션을 들었다.  
-진행은 NLU 개발자로 활동하는 김용희 개발자님께서 수고해주셨다.
+사실 딥러닝에 대해 겉햝기로 공부하고 봉인한 사례가 있어 다시 복습한다고 생각하고 이 세션을 들었다. 진행은 NLU 개발자로 활동하는 김용희 개발자님께서 수고해주셨다.
 ![image](https://github.com/ridickle7/LeeSangWoo_Reference/blob/master/2018/0516_clovaTechSubmit/0.imageRef/image1_1.jpeg?raw=true)
 
 먼저 다뤘던 이야가는 NLU의 정의!  
@@ -37,8 +36,7 @@ Clova는 NLU를 아래와 같이 진행한다.
 NLU 문제에서는 intent와 slot이 주 이슈라고 한다. 위에서 해당 설명이 빠졌는데 이야기하면 아래와 같다.  
 > intent : 서술어 + 목적어를 표현하는 의미 카테고리 (동사형 요소)  
 > slot   : 고유 명사, 이름, 날짜 / 숫자 등 DM에 필요한 유용한 정보 (명사형 요소)  
->   
-> **상세 설명**은 아래 그림 참조
+> 기타 자세한 설명은 아래 그림 참조
 > ![image](https://github.com/ridickle7/LeeSangWoo_Reference/blob/master/2018/0516_clovaTechSubmit/0.imageRef/image1_3.png?raw=true)
 
 인간 언어의 경외심을 느끼며 그 다음 이야기들을 들었던 것 같다.
@@ -47,8 +45,8 @@ NLU 문제에서는 intent와 slot이 주 이슈라고 한다. 위에서 해당 
 2) 가설을 세워 점수를 체킹하고 가중치 점수를 줌으로써 정답에 가까워질 수 있도록 지도한다.  
 3) slot은 prediction 단위로 기본적으로 추출하며 (문자 단위(한국어), word 단위로(영어)), 단서로 삼는 정보는 prediction 대상 전후 n개의 문자열을 더 읽어 문장이 유사 또는 자연스러운지 확인하는 단계로 추출한다. 물론 훈련용 말뭉치들을 저장해두어야 가능하다.
 4) 형태소 분석 정보(EOMI)를 보충하여, 동사/명사가 조사/어미 보다 중요하다는 것을 스스로 깨닫지는 못하겠지만 동음이의어 분간, 동사/형용사 원형을 추출할 수 있도록 도와준다. (아래 예 참고)  
-  > 볼륨 올려 : 볼륨(slot) + 올리(intent) + **어(EOMI)**  
-  > 볼륨 올리세요 : 볼륨(slot) + 올리(intent) + **세요(EOMI)**  
+> 볼륨 올려 : 볼륨(slot) + 올리(intent) + **어(EOMI)**  
+> 볼륨 올리세요 : 볼륨(slot) + 올리(intent) + **세요(EOMI)**  
 5) 제공된 카테고리와 무관한 문장은 어떤 카테고리로 분류될지 예측이 불가하다. 이 단점을 극복하기 위해 invocation name을 불렀을 때만 CEK를 실행하여 서비스 범위 밖 돌발 질문을 적게 한다. (UX적으로는 별로인 것 같지만 획기적인 아이디어)
 
 5번을 이해하는 데는 좀 더 시간이 걸릴 것 같다. 굳이 이름 불러서 할 필요 없이 event를 기다리도록 설계해도 될 것 같은데 이 것이 어떻게 기술의 한계를 극복한 것인지 이해가 잘 되지 않았다. 다음에 기회가 된다면 여쭈어보고 싶다.
@@ -67,9 +65,9 @@ NLU 문제에서는 intent와 slot이 주 이슈라고 한다. 위에서 해당 
 2. 의미/형태가 거의 같은 문장이 들어가지 않도록 한다
 > ex> 20초만큼 앞으로 가줘(빨리감기 의도) / 5분 앞으로 가줘(되감기 의도)
 3. slot range와 name을 정하는 기준이 일관되어야 한다.
-> ex> <device>에어컨<device> 꺼줘 / <target>에어컨<target> 상태 알려줘
+> ex> \<device>에어컨\<device> 꺼줘 / \<target>에어컨\<target> 상태 알려줘
 4. 어쩔 수 없는 경우 고난도 변별력 기르기 문제를 많이 포함한다.
-> <movie>클래식<movie> OST 틀어줘 / <genre>클래식<genre> 틀어줘
+> \<movie>클래식\<movie> OST 틀어줘 / \<genre>클래식\<genre> 틀어줘
 
 그리고 Unseen slot 에 대해 다뤘는데 정의는 아래와 같다.
 > Slot DB에 등장한 적 없는 slot
@@ -122,18 +120,18 @@ N-hot vector을 통해 조사가 특히 발전되어있는 한국에 맞추어 �
 
 ![image](https://github.com/ridickle7/LeeSangWoo_Reference/blob/master/2018/0516_clovaTechSubmit/0.imageRef/image3_1.jpeg?raw=true)
 
-최근 구글 클라우드 function 을 사용하면서 관심을 갖게 된 Serverless!  
-앞서 오승현 강연자분께서 설명을 굉장히 잘해주셨다. 그분의 이야기를 좀 풀어보면  
-> serverless란 함수단위 동작으로 추상화 되어 서비스를 제공하는 것 (마치 서버가 없는 것처럼 느끼는 것)  
+최근 구글 클라우드 function 을 사용하면서 관심을 갖게 된 Serverless!
+앞서 오승현 강연자분께서 설명을 굉장히 잘해주셨다. 그분의 이야기를 좀 풀어보면
+> serverless란 함수단위 동작으로 추상화 되어 서비스를 제공하는 것 (마치 서버가 없는 것처럼 느끼는 것)
 > event는 모든 하나의 행위가 event 그 자체 (이 자리에서 발표하는 것, 듣는 것 등등)
-  
+
 serverless에 대한 정의를 귀에 잘 박히게 설명해주었다. 위의 정의 한 마디로 이 세션에서 얻을 최소 이득은 다 얻었다.  
 그리고 함수를 호출할때마다 돈을 과금하는 형태이기 때문에, 사용하지 않을때도 돈을 지불하는 기존 이벤트 대기방식에 비해 효율적이라는 설명을 들었다.  
 하긴.. 함수를 사용할 시에만 지불하는 프로세스이니 소비적 측면에서도 큰 이득이다. 더불어 실제 node.js의 express 구축이나 라우팅 처리도 필요가 없을 것이고, 스프링에서 극혐인 초기 설정... (지금은 springboot라는 사기캐릭이 있다고 하지만) 을 생각해보면, 서버를 모르는 사람들도 쉽게 접할 수 있을 것이라 생각한다. 
-![image](https://github.com/ridickle7/LeeSangWoo_Reference/blob/master/2018/0516_clovaTechSubmit/0.imageRef/image3_2.jpeg?raw=true)
+![image](https://github.com/ridickle7/LeeSangWoo_Reference/blob/master/2018/0516_clovaTechSubmit/0.imageRef/image3_3.jpeg?raw=true)
 
 사실 이 세션에서 물어보고 싶은 게 좀 있었다. 
-> 구글 클라우드 서비스와 같이 로컬로 받아와 디버깅을 할 수 있느냐  
+> 구글 클라우드 서비스와 같이 로컬로 받아와 디버깅을 할 수 있느냐
 > javascript의 경우 이벤트 자체나 콜백데이터 자체를 파라미터로 받거나, 특정 이벤트에만 반응하여 이 함수가 실행되는 경우도 있을텐데 (ex> DB값 업데이트 되면 해당 함수가 실행) 이런 경우에는 라인 디버깅이 필요하다. 오로지 console만 통하여 확인해야 될까?
 
 사실 2번 질문은 구글 클라우드 function 의 문제이기도 하다. 실제 google realtime database 연동하여 프로젝트를 진행하다가 저 사례때문에 오로지 console만을 통해 해당 코드를 개선할 수 있었기 때문이다.  
