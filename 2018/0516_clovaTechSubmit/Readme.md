@@ -122,18 +122,18 @@ N-hot vector을 통해 조사가 특히 발전되어있는 한국에 맞추어 �
 
 ![image](https://github.com/ridickle7/LeeSangWoo_Reference/blob/master/2018/0516_clovaTechSubmit/0.imageRef/image3_1.jpeg?raw=true)
 
-최근 구글 클라우드 function 을 사용하면서 관심을 갖게 된 Serverless!
-앞서 오승현 강연자분께서 설명을 굉장히 잘해주셨다. 그분의 이야기를 좀 풀어보면
-> serverless란 함수단위 동작으로 추상화 되어 서비스를 제공하는 것 (마치 서버가 없는 것처럼 느끼는 것)
+최근 구글 클라우드 function 을 사용하면서 관심을 갖게 된 Serverless!  
+앞서 오승현 강연자분께서 설명을 굉장히 잘해주셨다. 그분의 이야기를 좀 풀어보면  
+> serverless란 함수단위 동작으로 추상화 되어 서비스를 제공하는 것 (마치 서버가 없는 것처럼 느끼는 것)  
 > event는 모든 하나의 행위가 event 그 자체 (이 자리에서 발표하는 것, 듣는 것 등등)
-
+  
 serverless에 대한 정의를 귀에 잘 박히게 설명해주었다. 위의 정의 한 마디로 이 세션에서 얻을 최소 이득은 다 얻었다.  
 그리고 함수를 호출할때마다 돈을 과금하는 형태이기 때문에, 사용하지 않을때도 돈을 지불하는 기존 이벤트 대기방식에 비해 효율적이라는 설명을 들었다.  
 하긴.. 함수를 사용할 시에만 지불하는 프로세스이니 소비적 측면에서도 큰 이득이다. 더불어 실제 node.js의 express 구축이나 라우팅 처리도 필요가 없을 것이고, 스프링에서 극혐인 초기 설정... (지금은 springboot라는 사기캐릭이 있다고 하지만) 을 생각해보면, 서버를 모르는 사람들도 쉽게 접할 수 있을 것이라 생각한다. 
 ![image](https://github.com/ridickle7/LeeSangWoo_Reference/blob/master/2018/0516_clovaTechSubmit/0.imageRef/image3_2.jpeg?raw=true)
 
 사실 이 세션에서 물어보고 싶은 게 좀 있었다. 
-> 구글 클라우드 서비스와 같이 로컬로 받아와 디버깅을 할 수 있느냐
+> 구글 클라우드 서비스와 같이 로컬로 받아와 디버깅을 할 수 있느냐  
 > javascript의 경우 이벤트 자체나 콜백데이터 자체를 파라미터로 받거나, 특정 이벤트에만 반응하여 이 함수가 실행되는 경우도 있을텐데 (ex> DB값 업데이트 되면 해당 함수가 실행) 이런 경우에는 라인 디버깅이 필요하다. 오로지 console만 통하여 확인해야 될까?
 
 사실 2번 질문은 구글 클라우드 function 의 문제이기도 하다. 실제 google realtime database 연동하여 프로젝트를 진행하다가 저 사례때문에 오로지 console만을 통해 해당 코드를 개선할 수 있었기 때문이다.  
