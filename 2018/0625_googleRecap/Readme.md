@@ -1,8 +1,10 @@
 # Google for Mobile 2018 I/O RECAP
 
-휴가를 쓰고 갔던 google IO Recap 행사!
-그 와중에 소소한 YAPP 부심 넘치는 인증샷을 남겨본다 :)
-![images](https://github.com/ridickle7/LeeSangWoo_Reference/blob/master/1.%20ImageRef/recap/recap_introduce_signification.jpeg?raw=true)
+![images]
+때는 바야흐로 6월 25일!! 오늘도 개발에 대한 열정을 감추고 Google for Mobile 2018 I/O RECAP 행사에 참여한다! (휴가는 Bonus~)  
+(https://github.com/ridickle7/LeeSangWoo_Reference/blob/master/1.%20ImageRef/recap/recap_introduce_signification.jpeg?raw=true)
+#### 그 와중에 소소한 YAPP 부심 넘치는 인증샷을 남겨본다 :)
+
 
 ## 0. 서론
 ### 0_1. Google I/O 최신 기술 총 정리
