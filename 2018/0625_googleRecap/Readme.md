@@ -108,7 +108,7 @@
   - Intelligent (머신러닝 / AI)  
   - Adaptive Battery  
     App Standby Buckets
-    ![images]()  
+    ![images](https://github.com/ridickle7/LeeSangWoo_Reference/blob/master/1.%20ImageRef/recap/recap_p_app_bundle_bucket.jpeg?raw=true)  
       - 앱을 4가지 버전으로 관리  
         > Active : 현재 사용 중  
         > Working set : 정기적으로 사용 중  
@@ -137,7 +137,7 @@
     사용자 행동 학습 후 여러 서비스에서 제공함.  
     사용자 니즈는 캐치할 수 있으나, 그걸 할 수 있는 앱은 알 수 없음  
     -> 앱에서 Built-in Intents를 사용해야 함. (이는 actions.xml에 정의해야함)  
-    ![images]()  
+    ![images](https://github.com/ridickle7/LeeSangWoo_Reference/blob/master/1.%20ImageRef/recap/recap_p_app_bundle_built_in_intent.jpeg?raw=true)  
     참고 : [https://developers.google.com/actions/reference/built-in-intents/](https://developers.google.com/actions/reference/built-in-intents/)  
     
   - Slice
@@ -151,22 +151,21 @@
   - 기타 
     [Notification](https://developer.android.com/preview/features?hl=ko#notifications)  
       - Messaging Style  
-        ![images]()  
-      - Image 지원
-        ![images]()  
+      - Image 지원  
+        ![images](https://github.com/ridickle7/LeeSangWoo_Reference/blob/master/1.%20ImageRef/recap/recap_p_notification_image.png?raw=true)  
       - SmartReply 기능 지원  
-        ![images]()  
+        ![images](https://github.com/ridickle7/LeeSangWoo_Reference/blob/master/1.%20ImageRef/recap/recap_p_notification_smartreply.png?raw=true)  
       > 사용자가 빈번히 Notification을 dismiss할 경우 시스템에서 Blocking을 제안함(Notification Blocking). 
       > 이 경우 Notification Channel 단위로 처리되므로
       > 앱에서 Channel 관리가 필요할 것으로 보임
     [Display Cutout](https://developer.android.com/preview/features?hl=ko#cutout)  
       - Status Bar 높이를 하드코딩한 경우 문제
-        (기존은 24dp로 알려져 있으나, Cutout의 경우 약 57~8dp)
+        (기존은 24dp로 알려져 있으나, Cutout의 경우 약 57~8dp)  
+        ![images](https://github.com/ridickle7/LeeSangWoo_Reference/blob/master/1.%20ImageRef/recap/recap_p_app_etc_.png?raw=true)   
     [Private API](https://developer.android.com/preview/restrictions-non-sdk-interfaces)  
       아래 사항의 경우 제한 적용
       > - 비 SDK 인터페이스  
       > - 리플렉션 또는 JNI를 사용  
-        ![images]()   
+        
 
   
-
