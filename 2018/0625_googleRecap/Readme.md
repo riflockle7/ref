@@ -31,7 +31,8 @@
   #### - android app bundle  
     - App의 사이즈를 최소화함 (실제 100MB의 앱의 설치율은 30% 떨어짐)  
       ![images](https://github.com/ridickle7/LeeSangWoo_Reference/blob/master/1.%20ImageRef/recap/recap_app_bundle_rate.png?raw=true)  
-    #### - 순서
+      
+    - 순서
       ![images](https://github.com/ridickle7/LeeSangWoo_Reference/blob/master/1.%20ImageRef/recap/recap_app_bundle_logic.jpeg?raw=true)  
       1. App Bundle을 활용하여 동적 기능 모듈(dynamic feature modules)을 앱에 추가  
       2. 임의의 기기에 대해 앱에 필요한 모든 것 (ex>  언어, 화면 해상도, 하드웨어 아키텍처 등) 이 들어있는 App Bundle 빌드  
@@ -39,10 +40,10 @@
       ![images](https://github.com/ridickle7/LeeSangWoo_Reference/blob/master/1.%20ImageRef/recap/recap_app_bundle_dynamic_delivery.gif?raw=true)  
       
   #### - Kotlin    
-      개발자의 35%가 코틀린을 사용하고 있음  
-      코드가 `간결`해짐  
-      `다양한 플랫폼`에서 코틀린 사용 가능  
-      ![images]()  
+    - 개발자의 35%가 코틀린을 사용하고 있음  
+    - 코드가 `간결`해짐  
+    - `다양한 플랫폼`에서 코틀린 사용 가능  
+    ![images]()  
       > Kotlin / JVM
       >   - Desktop
       >   - Android
@@ -58,9 +59,9 @@
       >   - OS (macOS / Windows, Linux, Raspberry Pi)
       
   #### - Google Play Instant
-      미니게임(실제 게임의 베타 역활), 튜토리얼보다 난이도 있는 체험, 경험 못한 레벨 체험 등을 지원  
-      게임 한도 크기 : 4MB -> 10MB
-      유니티, Cocos 지원  
+    - 미니게임(실제 게임의 베타 역활), 튜토리얼보다 난이도 있는 체험, 경험 못한 레벨 체험 등을 지원  
+    - 게임 한도 크기 : 4MB -> 10MB
+    - 유니티, Cocos 지원  
       
   #### - Faster Development  
     - JetPack (androidx)  
