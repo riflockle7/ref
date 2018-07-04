@@ -43,7 +43,7 @@
     - 개발자의 35%가 코틀린을 사용하고 있음  
     - 코드가 `간결`해짐  
     - `다양한 플랫폼`에서 코틀린 사용 가능  
-    ![images]()  
+    ![images](https://github.com/ridickle7/LeeSangWoo_Reference/blob/master/1.%20ImageRef/recap/recap_kotlin_anywhere.jpeg?raw=true)  
       > Kotlin / JVM
       >   - Desktop
       >   - Android
@@ -152,20 +152,19 @@
 
   #### - 기타 
     1. [Notification](https://developer.android.com/preview/features?hl=ko#notifications)  
-      - Messaging Style  
-      - Image 지원  
-        ![images](https://github.com/ridickle7/LeeSangWoo_Reference/blob/master/1.%20ImageRef/recap/recap_p_notification_image.png?raw=true)  
-      - SmartReply 기능 지원  
-        ![images](https://github.com/ridickle7/LeeSangWoo_Reference/blob/master/1.%20ImageRef/recap/recap_p_notification_smartreply.png?raw=true)  
-        > 사용자가 빈번히 Notification을 dismiss할 경우 시스템에서 Blocking을 제안함(Notification Blocking). 
-        > 이 경우 Notification Channel 단위로 처리되므로, 앱에서 Channel 관리가 필요할 것으로 보임
+       - Messaging Style  
+       - Image 지원  
+         ![images](https://github.com/ridickle7/LeeSangWoo_Reference/blob/master/1.%20ImageRef/recap/recap_p_notification_image.png?raw=true)  
+       - SmartReply 기능 지원  
+         ![images](https://github.com/ridickle7/LeeSangWoo_Reference/blob/master/1.%20ImageRef/recap/recap_p_notification_smartreply.png?raw=true)  
+         > 사용자가 빈번히 Notification을 dismiss할 경우 시스템에서 Blocking을 제안함(Notification Blocking). 
+         > 이 경우 Notification Channel 단위로 처리되므로, 앱에서 Channel 관리가 필요할 것으로 보임
     2. [Display Cutout](https://developer.android.com/preview/features?hl=ko#cutout)  
-      - Status Bar 높이를 하드코딩한 경우 문제
-        (기존은 24dp로 알려져 있으나, Cutout의 경우 약 57~8dp)  
-        ![images](https://github.com/ridickle7/LeeSangWoo_Reference/blob/master/1.%20ImageRef/recap/recap_p_app_etc_.png?raw=true)   
+       - Status Bar 높이를 하드코딩한 경우 문제
+         (기존은 24dp로 알려져 있으나, Cutout의 경우 약 57~8dp)  
+         ![images](https://github.com/ridickle7/LeeSangWoo_Reference/blob/master/1.%20ImageRef/recap/recap_p_app_etc_.png?raw=true)   
     3. [Private API](https://developer.android.com/preview/restrictions-non-sdk-interfaces)  
-      - 아래 사항의 경우 제한 적용
-        > - 비 SDK 인터페이스  
-        > - 리플렉션 또는 JNI를 사용  
-        
+       - 아래 사항의 경우 제한 적용
+         > - 비 SDK 인터페이스  
+         > - 리플렉션 또는 JNI를 사용  
 
