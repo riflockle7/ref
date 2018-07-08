@@ -63,7 +63,7 @@
       유니티, Cocos 지원  
       
   #### - Faster Development  
-    - JetPack (androidx)  
+    - JetPack (이제 모두 androidx.* 네임스페이스로 이동)  
       ![images](https://github.com/ridickle7/LeeSangWoo_Reference/blob/master/1.%20ImageRef/recap/recap_faster_development_jetpack.png?raw=true)  
       - Android 앱을 만들기 위한 컴포넌트, 도구 및 지침 세트
       - `별도의` 라이브러리로서 제공
@@ -350,3 +350,25 @@ Modular App development
 - [SQL Query](https://developer.android.com/reference/android/arch/persistence/room/Query) (@Query 애너테이션 사용)
 - Kotlin Lint check 지원
 
+
+## 3. Kotlin으로 코딩 시작하기
+
+#### tip
+- conversion에만 의존하지 말 것 (Java to Kotlin)
+
+#### 코틀린 특징
+- 필드는 없고, 프로퍼티만 사용
+- 
+코틀린 사용의 장점
+	Lazy property -> delegation
+
+built-in function 에 있습니다
+when문
+- 조건문을 원활하게 사용 가능
+
+코틀린 코드를 여기저기에 ?를 쓰지마세요!!!!
+추가적인 것을 쓸경우 세미콜론을 사용해주세요!
+
+sealed : closed하는 것 (limit 거는 것)
+오버로딩은 안되고 오버라이딩은 안됨
+코틀린은 파라미터가 val이기 떄문에
